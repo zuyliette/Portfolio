@@ -108,7 +108,7 @@
 }
 
 body {
-  background-color: getColorByToken('bg-dark');
+  background-color: getColorByToken('bg-white');
 }
 
 .container {
@@ -257,12 +257,12 @@ body {
     &--left {
       grid-row: 1 #{'/'} span 2;
       grid-column: 1 #{'/'} span 1;
-      background-color: getColorByToken('bg-dark');
+      background-color: getColorByToken('bg-white');
     }
     &--right {
       grid-row: 1 #{'/'} span 2;
       grid-column: 3 #{'/'} span 1;
-      background-color: getColorByToken('bg-dark');
+      background-color: getColorByToken('bg-white');
     }
   }
 }
@@ -273,7 +273,7 @@ body {
     flex-shrink: 0;
     width: 3em;
     aspect-ratio: 1 #{'/'} 1;
-    background-color: getColorByToken('color-dark', 'primary');
+    background-color: getColorByToken('color-white', 'primary');
     border-radius: 9999rem;
   }
   &__wrap {

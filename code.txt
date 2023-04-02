@@ -1,13 +1,21 @@
 [코딩 명령어]
 
-/
-이미지 파일
 
+■ 배경색 변경
+<style>
+    body { background-color: lightblue; }
+
+    h1 { background-color: rgb(255,128,0); }
+
+    p { background-color: #FFFFCC; }
+</style>
+
+
+■ 이미지 파일
 <img src="./imgs/.jpg" loading="lazy" />
 
-/
-로띠파일 무한재생
 
+■ 로띠파일 무한재생
 <lottie-player
           src="./imgs/"
           style="max-width: 1440px"
@@ -15,9 +23,9 @@
           autoplay
         ></lottie-player>
 
-/
-영상 무한재생
 
+■ 영상 무한재생
 <video autoplay loop muted poster="">
           <source src="./imgs/" />
         </video>
+
