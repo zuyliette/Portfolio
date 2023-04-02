@@ -76,7 +76,7 @@ body {
   padding-inline: 0;
 }
 .section--type-header {
-  background-color: #1c1b1d;
+  background-color: #ffffff;
 }
 .section--type-header > .container {
   color: #c8c6c8;
@@ -93,7 +93,7 @@ body {
   justify-content: center;
   color: #c8c6c8;
   text-align: center;
-  background-color: rgb(37, 36, 38);
+  background-color: rgb(255, 255, 255);
 }
 .section--type-footer > .container .designerInfo {
   color: #c8c6c8;
@@ -108,12 +108,12 @@ body {
 .section__bg--left {
   grid-row: 1 / span 2;
   grid-column: 1 / span 1;
-  background-color: #1c1b1d;
+  background-color: #ffffff;
 }
 .section__bg--right {
   grid-row: 1 / span 2;
   grid-column: 3 / span 1;
-  background-color: #1c1b1d;
+  background-color: #ffffff;
 }
 
 .profile {
