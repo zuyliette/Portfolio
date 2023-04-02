@@ -1,0 +1,23 @@
+[코딩 명령어]
+
+/
+이미지 파일
+
+<img src="./imgs/.jpg" loading="lazy" />
+
+/
+로띠파일 무한재생
+
+<lottie-player
+          src="./imgs/"
+          style="max-width: 1440px"
+          loop
+          autoplay
+        ></lottie-player>
+
+/
+영상 무한재생
+
+<video autoplay loop muted poster="">
+          <source src="./imgs/" />
+        </video>
