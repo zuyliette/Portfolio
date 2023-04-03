@@ -4,9 +4,7 @@
 ■ 배경색 변경
 <style>
     body { background-color: lightblue; }
-
     h1 { background-color: rgb(255,128,0); }
-
     p { background-color: #FFFFCC; }
 </style>
 
